@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+  <title>{% if page.title %}{{ page.title | escape }} | {{site.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <link rel="shortcut icon" href="{{site.github.url}}/favicon.ico">
+    <link href="{{site.github.url}}/css/style.css" rel="stylesheet" type="text/css">
+
+    <meta name="description" itemprop="description" content="Chicago public relations, communications and political consulting.">
+    <meta name="keywords" itemprop="keywords" content="chicago, public, relations, strategic, communications, zises, 芝加哥, EB-5, crisis, issues, immigration, immigrant investor, 公共关系策略">
+    <link rel="canonical" href="http://www.zis.es/">
+
+    {% include googleAnalytics.html %}
+
+    <script type="text/javascript" src="{{site.github.url}}/js/jquery-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="{{site.github.url}}/css/DDSlider.css" type="text/css"></head>
+</head>

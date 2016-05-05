@@ -1,0 +1,54 @@
+---
+layout: page
+title: Experience
+permalink: /experience/
+---
+
+<div id="experience">
+  <div class="container">
+  	<div class="bx-wrapper" style="width:940px; position:relative;">
+      <div class="bx-window" style="height:290px; width:940px; position:relative; overflow:hidden;">
+        <ul id="exp_slider">
+          {% for slide in site.data.sliders.experiencesSlider.slides %}
+            <li class="slider post" style="list-style: none; position: absolute; top: 0px; left: 0px;">
+              <img width="940" height="290" src="{{site.github.url}}/{{slide.image}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="solis-1.png" >
+              <div class="text">
+                <p>“{{slide.quote}}”</p>
+                <span>
+                  <p><strong>{{slide.name}}</strong><br>{{slide.description}}</p>
+                </span>
+              </div>
+              <a href="{{site.github.url}}{{slide.url}}" class="button">Case Study</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+	var slides = $('#exp_slider').children();
+	var currentSlide = 0;
+
+  for(var x = 1; x < slides.length; x++) {
+    $(slides[x]).hide();
+  }
+
+	setInterval(function() {
+		if ($('#experience:hover').length != 0) {
+		  return;
+		}
+
+		$(slides[currentSlide]).fadeOut();
+
+		if(currentSlide == slides.length - 1)
+			currentSlide = 0;
+		else
+			currentSlide = currentSlide + 1;
+
+		$(slides[currentSlide]).fadeIn();
+	}, 5000)
+});
+</script>

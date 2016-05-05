@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div id="free_advice">
+	<div class="container">
+	 	<div class="bx-wrapper" style="width:940px; position:relative;">
+			<div class="bx-window" style="height:370px; width:940px; position:relative; overflow:hidden;">
+				<ul id="slider">
+          {% for slide in site.data.sliders.homeSlider.slides %}
+            <li class="post" style="list-style: none; position: absolute; top: 0px; left: 0px; opacity: 1;">
+              <div class="image">
+                <img width="940" height="370" src="{{site.github.url}}/{{slide.image}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="slider_feature_the_flaw">
+              </div>
+              <div class="text">
+                <h2>{{slide.title1}}</h2>
+                <h3>{{slide.title2}}</h3>
+                <p>{{slide.title3}}</p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="controls">
+	<ul>
+    {% for control in site.data.sliders.homeSlider.controls %}
+      <li class="post">
+        <h3><a href="#" class="">{{control}}</a></h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script type="text/javascript">
+$(function() {
+	var slides = $('#slider').children();
+	var controls = $('#controls ul').children();
+	var currentSlide = 0;
+
+  for(var x = 1; x < slides.length; x++) {
+    $(slides[x]).hide();
+  }
+
+  $(controls[0]).addClass('pager-active');
+
+	setInterval(function() {
+		if ($('#free_advice:hover').length != 0 || $('#controls:hover').length != 0) {
+		  return;
+		}
+
+		$(slides[currentSlide]).fadeOut();
+		$(controls[currentSlide]).removeClass('pager-active');
+
+		if(currentSlide == slides.length - 1)
+			currentSlide = 0;
+		else
+			currentSlide = currentSlide + 1;
+
+		$(slides[currentSlide]).fadeIn();
+		$(controls[currentSlide]).addClass('pager-active');
+	}, 5000)
+});
+</script>
