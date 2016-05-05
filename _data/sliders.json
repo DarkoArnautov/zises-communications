@@ -1,0 +1,82 @@
+{
+  "homeSlider": {
+    "slides": [
+      {
+        "image": "images/uploads/slider_feature_the_flaw.png",
+        "title1": "Free Advice",
+        "title2": "Feature the flaw.",
+        "title3": "The best strategy to deal with a weakness or vulnerability is often to move it front and center."
+      },
+      {
+        "image": "images/uploads/slider_sit_there.png",
+        "title1": "Free Advice",
+        "title2": "Don’t just do something. Sit there!",
+        "title3": "Don’t let resources or expectations define your strategy. When the situation calls for it, sit and enjoy some tea. Patience is a virtue most clients have forgotten and most firms can’t afford to offer."
+      },
+      {
+        "image": "images/uploads/slider_donkey.png",
+        "title1": "Free Advice",
+        "title2": "Your message doesn’t matter.",
+        "title3": "Even an ass knows empty words from&nbsp;something real.&nbsp;No one hears what you say. People listen to what you do, and effective enduring messages flow from honest actions and deeds."
+      },
+      {
+        "image": "images/uploads/slider_dont_win.png",
+        "title1": "Free Advice",
+        "title2": "Don’t win, if you can lose.",
+        "title3": "Success comes in lots of shapes and sizes. A well planned, well executed “loss” can often times be better than a “win.” Make sure successful solutions exist all around."
+      },
+      {
+        "image": "images/uploads/slider_z_key.png",
+        "title1": "Free Advice",
+        "title2": "Don’t change opinion. Change how people think.",
+        "title3": "It is not enough to just change someone’s mind. Instead, radically alter the landscape and allow people to see you and your issues in a new light."
+      }
+    ],
+    "controls": [
+      "Feature the flaw.",
+      "Don’t just do something. Sit there!",
+      "Your message doesn’t matter.",
+      "Don’t win, if you can lose.",
+      "Don’t change opinion. Change how people think."
+    ]
+  },
+  "experiencesSlider": {
+    "slides": [
+      {
+        "image": "images/uploads/solis-1.png",
+        "quote": "Bryan effortlessly juggles multiple competing interests, complex political situations, difficult personalities and problems, yet achieves his clients objectives with aplomb and ease.",
+        "name": "Danny Solis",
+        "description": "Chicago Alderman &amp; Delegation Leader, Chicago 2016 Beijing Research Delegation",
+        "url": "/ald-danny-solis"
+      },
+      {
+        "image": "images/uploads/turner.png",
+        "quote": "There is no one better at political campaign communications strategy.",
+        "name": "Rep. Art Turner",
+        "description": "Deputy Majority Leader &amp; Candidate for Lt. Governor of Illinois",
+        "url": "/turner-for-illinois"
+      },
+      {
+        "image": "images/uploads/santoy.png",
+        "quote": "We did the impossible: we beat the City’s two established party candidates to become the only independent to win office in Berwyn. We did it because Bryan is the answer to ‘impossible.’",
+        "name": "Cesar Santoy",
+        "description": "Alderman, Berwyn’s 5th Ward",
+        "url": "/ald-cesar-santoy"
+      },
+      {
+        "image": "images/uploads/southbridge.png",
+        "quote": "Bryan has taught us that smart strategy is the key to success, and that safe, obvious communications are almost certainly doomed to fail.",
+        "name": "Nick Walker",
+        "description": "Founder of Southbridge Group / Puente Sur. Ltda.",
+        "url": "/southbridge-group-puente-sur-ltda"
+      },
+      {
+        "image": "images/uploads/solis-2.png",
+        "quote": "The best strategy in the world is worthless if it can’t be well executed. Zises knows how to execute.",
+        "name": "Maya Solis",
+        "description": "Campaign Manager for Danny Solis for 25th Ward, Chicago",
+        "url": "/ald-danny-solis"
+      }
+    ]
+  }
+}
