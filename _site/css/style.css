@@ -161,6 +161,7 @@ a:hover { color: #ffb400; text-decoration: none; }
 #projects .container .project p { margin: 0px 0px 14px 0px; }
 #projects .container .project h3 a { color: #FFFFFF; }
 #projects .container .project h3 a:hover { color: #DDDDDD; }
+#projects .container .post p a img { width: 100% }
 
 /* footer */
 
