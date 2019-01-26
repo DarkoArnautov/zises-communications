@@ -10,10 +10,10 @@ title: Zises Strategic Communications
 email: bryan@zis.es
 description: > # this means to ignore newlines until "baseurl:"
   Chicago public relations, communications and political consulting.
-baseurl: "/zises-communications/" # the subpath of your site, e.g. /blog
-url: "http://zises.github.io" # the base hostname & protocol for your site
+baseurl: # "/zises-communications/" the subpath of your site, e.g. /blog
+url: "http://zis.es" # the base hostname & protocol for your site
 twitter_username: bryan_z
-github_username:  bryan_z
+github_username: bryan_z
 
 # Build settings
 markdown: kramdown
