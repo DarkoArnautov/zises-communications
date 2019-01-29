@@ -129,31 +129,6 @@
   </div>
 </div>
 
-<script type="text/javascript">
-$(function() {
-	var slides = $('#exp_slider').children();
-	var currentSlide = 0;
-
-  for(var x = 1; x < slides.length; x++) {
-    $(slides[x]).hide();
-  }
-
-	setInterval(function() {
-		if ($('#experience:hover').length != 0) {
-		  return;
-		}
-
-		$(slides[currentSlide]).fadeOut();
-
-		if(currentSlide == slides.length - 1)
-			currentSlide = 0;
-		else
-			currentSlide = currentSlide + 1;
-
-		$(slides[currentSlide]).fadeIn();
-	}, 5000)
-});
-</script>
 
 </div>
 

@@ -156,7 +156,7 @@ a:hover { color: #ffb400; text-decoration: none; }
 
 #projects { clear: both; overflow: auto; width: 100%; padding: 0px 0px 25px 0px; }
 #projects .container { width: 960px; padding: 0px 0px 0px 20px; }
-#projects .container .project { float: left; width: 258px; margin: 0px 20px 20px 0px; padding: 20px; background: #170b12; background: rgba(23,11,18,0.8); border: 1px solid #23181f; border: 1px solid rgba(255,255,255,0.05); -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+#projects .container .project { float: left; width: 258px; height: 300px; margin: 0px 20px 20px 0px; padding: 20px; background: #170b12; background: rgba(23,11,18,0.8); border: 1px solid #23181f; border: 1px solid rgba(255,255,255,0.05); -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 #projects .container .project:hover { background: #23181f; background: rgba(255,255,255,0.05); }
 #projects .container .project p { margin: 0px 0px 14px 0px; }
 #projects .container .project h3 a { color: #FFFFFF; }
