@@ -1,5 +1,5 @@
 ---
-layout: experience
+layout: NONE
 title: Southbridge Group / Puente Sur, Ltda.
 type: International Business
 image: '/images/uploads/puentesur.jpg'

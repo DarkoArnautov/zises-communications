@@ -42,18 +42,18 @@
   },
   "experiencesSlider": {
     "slides": [
-      {
-        "image": "images/uploads/solis-1.png",
-        "quote": "Bryan effortlessly juggles multiple competing interests, complex political situations, difficult personalities and problems, yet achieves his clients objectives with aplomb and ease.",
-        "name": "Danny Solis",
-        "description": "Chicago Alderman &amp; Delegation Leader, Chicago 2016 Beijing Research Delegation",
-        "url": "/ald-danny-solis"
-      },
+#      {
+#        "image": "images/uploads/solis-1.png",
+#        "quote": "Bryan effortlessly juggles multiple competing interests, complex political situations, difficult personalities and problems, yet achieves his clients objectives with aplomb and ease.",
+#        "name": "Danny Solis",
+#        "description": "Chicago Alderman &amp; Delegation Leader, Chicago 2016 Beijing Research Delegation",
+#        "url": "/ald-danny-solis"
+#      },
       {
         "image": "images/uploads/turner.png",
         "quote": "There is no one better at political campaign communications strategy.",
         "name": "Rep. Art Turner",
-        "description": "Deputy Majority Leader &amp; Candidate for Lt. Governor of Illinois",
+        "description": "Deputy Majority Leader, State of Illinois",
         "url": "/turner-for-illinois"
       },
       {
@@ -70,13 +70,13 @@
         "description": "Founder of Southbridge Group / Puente Sur. Ltda.",
         "url": "/southbridge-group-puente-sur-ltda"
       },
-      {
-        "image": "images/uploads/solis-2.png",
-        "quote": "The best strategy in the world is worthless if it can’t be well executed. Zises knows how to execute.",
-        "name": "Maya Solis",
-        "description": "Campaign Manager for Danny Solis for 25th Ward, Chicago",
-        "url": "/ald-danny-solis"
-      }
+#      {
+#        "image": "images/uploads/solis-2.png",
+#        "quote": "The best strategy in the world is worthless if it can’t be well executed. Zises knows how to execute.",
+#        "name": "Maya Solis",
+#        "description": "Campaign Manager for Danny Solis for 25th Ward, Chicago",
+#        "url": "/ald-danny-solis"
+#      }
     ]
   }
 }
