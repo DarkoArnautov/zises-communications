@@ -154,6 +154,14 @@ a:hover { color: #ffb400; text-decoration: none; }
 #about .container .post .button {  font-size: 20px; line-height: 28px; font-weight: normal; margin: 0px 0px 22px 0px; color: #2a2026; display: inline-block; padding: 10px 15px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; font-family: "Helvetica Neue", Arial, sans-serif; text-decoration: none; }
 #about .container .post .label { font-size: 20px; line-height: 28px; font-weight: normal; margin: 0px 0px 22px 0px; color: #2a2026; }
 #about .container .post .textarea { font-size: 20px; line-height: 28px; font-weight: normal; margin: 0px 0px 22px 0px; color: #2a2026; }
+#about .container .post .contact-form { width: 80%; margin: 20px auto; }
+#about .container .post .contact-form span { display: inline-block;   width: calc(49% - 20px); text-align: center; color: black;}
+#about .container .post .contact-form span label { color: black; padding-right: 45px }
+#about .container .post .contact-form .message { width: 93%; margin: 20px auto; }
+#about .container .post .contact-form .message label { color: black; padding-right: 17px; vertical-align: top;}
+#about .container .post .contact-form .message textarea { width: 72%; }
+#about .container .post .contact-form .submit-button { width: 100%; text-align: center }
+#about .container .post .contact-form .submit-button button { width: 40%; padding: 10px 20px; }
 
 
 /* project boxes */
